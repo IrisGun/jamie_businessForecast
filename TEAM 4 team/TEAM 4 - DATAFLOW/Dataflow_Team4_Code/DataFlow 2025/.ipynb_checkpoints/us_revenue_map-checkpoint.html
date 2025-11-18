@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_79e6d700a4f9a781b19bb6d5ab1092e2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_79e6d700a4f9a781b19bb6d5ab1092e2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_79e6d700a4f9a781b19bb6d5ab1092e2 = L.map(
+                "map_79e6d700a4f9a781b19bb6d5ab1092e2",
+                {
+                    center: [39.8283, -98.5795],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_249107dadf81587e2433fc70c4fff4a3 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_249107dadf81587e2433fc70c4fff4a3.addTo(map_79e6d700a4f9a781b19bb6d5ab1092e2);
+        
+    
+            var circle_marker_8d8f90745b87de2ce061c5058329a5f9 = L.circleMarker(
+                [36.7783, -119.4179],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 3}
+            ).addTo(map_79e6d700a4f9a781b19bb6d5ab1092e2);
+        
+    
+        var popup_922a1efddbcd939848290d69ad331a85 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9d9b49c795d056a6c269fb77bd0e545a = $(`<div id="html_9d9b49c795d056a6c269fb77bd0e545a" style="width: 100.0%; height: 100.0%;">California: $500,000</div>`)[0];
+                popup_922a1efddbcd939848290d69ad331a85.setContent(html_9d9b49c795d056a6c269fb77bd0e545a);
+            
+        
+
+        circle_marker_8d8f90745b87de2ce061c5058329a5f9.bindPopup(popup_922a1efddbcd939848290d69ad331a85)
+        ;
+
+        
+    
+    
+            var circle_marker_986764d9d4513b4a2db780039a0d3e05 = L.circleMarker(
+                [31.9686, -99.9018],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.2, "stroke": true, "weight": 3}
+            ).addTo(map_79e6d700a4f9a781b19bb6d5ab1092e2);
+        
+    
+        var popup_2ea50393853e365d7e8cd49a3cb83178 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0da5b70e5a00dd4f1c0b0ee48262c680 = $(`<div id="html_0da5b70e5a00dd4f1c0b0ee48262c680" style="width: 100.0%; height: 100.0%;">Texas: $420,000</div>`)[0];
+                popup_2ea50393853e365d7e8cd49a3cb83178.setContent(html_0da5b70e5a00dd4f1c0b0ee48262c680);
+            
+        
+
+        circle_marker_986764d9d4513b4a2db780039a0d3e05.bindPopup(popup_2ea50393853e365d7e8cd49a3cb83178)
+        ;
+
+        
+    
+    
+            var circle_marker_2e9ee7df6a16d621aeb88d9bb996c4aa = L.circleMarker(
+                [40.7128, -74.006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.8, "stroke": true, "weight": 3}
+            ).addTo(map_79e6d700a4f9a781b19bb6d5ab1092e2);
+        
+    
+        var popup_9c29269afbbf0cc86e07ef52e39301e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4089d144d4b7e989d3e10a000a1325b6 = $(`<div id="html_4089d144d4b7e989d3e10a000a1325b6" style="width: 100.0%; height: 100.0%;">New York: $380,000</div>`)[0];
+                popup_9c29269afbbf0cc86e07ef52e39301e0.setContent(html_4089d144d4b7e989d3e10a000a1325b6);
+            
+        
+
+        circle_marker_2e9ee7df6a16d621aeb88d9bb996c4aa.bindPopup(popup_9c29269afbbf0cc86e07ef52e39301e0)
+        ;
+
+        
+    
+    
+            var circle_marker_0be5d4f77c2da352a88beca404bebdb7 = L.circleMarker(
+                [27.9944, -81.7603],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.0, "stroke": true, "weight": 3}
+            ).addTo(map_79e6d700a4f9a781b19bb6d5ab1092e2);
+        
+    
+        var popup_c71263dae50168fbf5835d15a3ba7c3e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ccdb87fa4709588eeb559caac367f3eb = $(`<div id="html_ccdb87fa4709588eeb559caac367f3eb" style="width: 100.0%; height: 100.0%;">Florida: $300,000</div>`)[0];
+                popup_c71263dae50168fbf5835d15a3ba7c3e.setContent(html_ccdb87fa4709588eeb559caac367f3eb);
+            
+        
+
+        circle_marker_0be5d4f77c2da352a88beca404bebdb7.bindPopup(popup_c71263dae50168fbf5835d15a3ba7c3e)
+        ;
+
+        
+    
+    
+            var circle_marker_9587a82411e8ec96252003e5ef33e551 = L.circleMarker(
+                [40.6331, -89.3985],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.5, "stroke": true, "weight": 3}
+            ).addTo(map_79e6d700a4f9a781b19bb6d5ab1092e2);
+        
+    
+        var popup_0862c913b5aec12a61aefca7cf1c787f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f69c590cfbdea21b4e8d8bbb1d93e117 = $(`<div id="html_f69c590cfbdea21b4e8d8bbb1d93e117" style="width: 100.0%; height: 100.0%;">Illinois: $250,000</div>`)[0];
+                popup_0862c913b5aec12a61aefca7cf1c787f.setContent(html_f69c590cfbdea21b4e8d8bbb1d93e117);
+            
+        
+
+        circle_marker_9587a82411e8ec96252003e5ef33e551.bindPopup(popup_0862c913b5aec12a61aefca7cf1c787f)
+        ;
+
+        
+    
+</script>
+</html>
